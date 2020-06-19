@@ -167,8 +167,8 @@ mainElement.append(kata16Heading)
 kata16Heading.append('KATA 16: ')
 
 let numSumKata16 = 0
-for (let counter = 1; counter < sampleArray.length ; counter ++) {
-    numSumKata16=numSum+sampleArray[counter]
+for (let counter = 0; counter < sampleArray.length ; counter ++) {
+    numSumKata16=numSumKata16+sampleArray[counter]
 }
     kata16Heading.append(numSumKata16)
 
